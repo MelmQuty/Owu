@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container-xl {
+    
+}
+
+.header {
+    /* background-color:teal; */
+    height: 100px;
+}
+
+.main {
+    display: flex;
+}
+
+.first {
+    /* display: flex; */
+}
+
+.hero {
+    background-color:turquoise;
+    height: 200px;
+}
+
+
+.bg-darkmagenta {
+    background-color: darkmagenta;
+}
+.bg-yellow {
+    background-color: yellow;
+}
+.h400{
+    height: 400px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.extra_content {
+    background-color:darkorchid;
+    height: 200px;
+}
+
+
+.related_images {
+    height: 200px;
+    background-color:green;
+}
+
+.related_posts {
+    height: 200px;
+    background-color:hotpink;
+}
+
+.footer {
+    background-color:teal;
+    height: 100px;
+}

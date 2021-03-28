@@ -1,0 +1,14 @@
+.container {
+    background-color: tomato;
+}
+
+.card {
+    margin-top: 10px;
+    background-color:mediumpurple;
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+

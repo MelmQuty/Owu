@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    color:crimson;
+    transition: all .2s linear;
+}
+
+p {
+    font-size: 18px;
+
+}
+
+.main_header {
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.subheader_title {
+    text-align: left;
+}
+
+.subheader_info {
+    background-color: aquamarine;
+    text-align: center;
+    margin-top: 10px;
+    padding: 7px;
+    border: 1px solid silver;
+}
+
+.main_ol {
+    border: 1px solid grey;
+    width: 20%;
+    text-align: left;
+    background-color: aquamarine;
+}
+
+.main_ol_header {
+    text-align: center;
+}
+
+.main_ol_item {
+    margin-top: 5px;
+}
+
+.main_plot {
+
+}
+
+.main_plot_header {
+    margin-bottom: 0px;
+    font-weight: 0;
+}
+
+.main_characters {
+
+}
+
+.main_characters_header {
+    margin-bottom: 0;
+}
+
+.main_characters_subheader {
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+.main_characters_ul_header {
+    text-align: left;
+    font-size: 25px;
+}

@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    background-color:indigo;
+}
+
+.header {
+    height: 150px;
+    background-color: aquamarine;
+    font-size: 40px;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.nav {
+    height: 65px;
+    background-color: tomato;
+    font-size: 40px;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.sections {
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.section1 {
+    width: 30%;
+    background-color:teal;
+    height: 800px;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1_header {
+    margin: 0 auto;
+    background-color: yellowgreen;
+    height: 100px;
+    width: 90%;
+    
+}
+
+.section1_nav {
+    margin: 0 auto;
+    background-color:turquoise;
+    height: 600px;
+    width: 90%;
+}
+
+.section1_footer {
+    margin: 0 auto;
+    background-color:violet;
+    height: 100px;
+    width: 90%;
+}
+
+.section2 {
+    width: 70%;
+    background-color:salmon;
+    height: 800px;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2_header {
+    margin: 0 auto;
+    background-color: yellowgreen;
+    height: 100px;
+    width: 85%;
+}
+
+.section2_article1 {
+    margin: 0 auto;
+    background-color:seagreen;
+    height: 300px;
+    width: 85%;
+}
+
+.section2_article1_header {
+    height: 75px;
+    background-color:tan;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.article1_p {
+    height: 75px;
+    background-color: darkgoldenrod;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.second {
+    background-color:darkred;
+}
+
+.article1_footer {
+    height: 75px;
+    background-color:darkslateblue;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.section2_article2 {
+    margin: 0 auto;
+    background-color:slateblue;
+    height: 300px;
+    width: 85%;
+}
+
+.article2_header {
+    height: 50px;
+    background-color:deeppink;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.article2_info {
+    height: 200px;
+    background-color:gainsboro;
+    display: flex;
+    overflow: hidden;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.article2_info_p {
+    width: 70%;
+    background-color:green;
+}
+
+.article2_info_aside {
+    width: 30%;
+    background-color:greenyellow;
+}
+
+.article2_footer {
+    height: 50px;
+    background-color:deeppink;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.section2_footer {
+    margin: 0 auto;
+    background-color:violet;
+    height: 100px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.footer {
+    height: 150px;
+    background-color: aquamarine;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    width: 95%;
+}

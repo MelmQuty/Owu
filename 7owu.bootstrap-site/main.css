@@ -1,0 +1,167 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:after,
+*:before {
+    box-sizing:border-box;
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1445px;
+    height: 1450px;
+    /* /* background-color: tomato;  */
+    position: relative;
+
+}
+
+.header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin-bottom: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header-info {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 18px;
+}
+
+.header-info a:hover {
+    font-weight: bold;
+    color: #000;
+    transition: 0.2s linear all;
+}
+
+.header-info-main {
+    margin-left: 204px;
+    margin-right: 45px;
+}
+
+.header-info-blog {
+    margin-right: 45px;
+}
+
+.header-media {
+    position:absolute;
+    right: 200px;
+}
+
+.header-media-item {
+    margin-left: 23px;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #000;
+    font-size: 60px;
+    margin-bottom: 70px;
+}
+
+.main-info-header {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.city {
+    display: flex;
+    margin-top: 48px;
+    margin-left: 16px;
+}
+
+.city-item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.city-img {
+    display: block;
+    width: 342px;
+    height: 157px;
+}
+
+.city-header {
+    margin-top: 27px;
+    margin-left: 24px;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.city-header-c {
+    color:rgb(153, 153, 153);
+    margin-left: 30px;
+}
+
+.city-info {
+    margin-top: 39px;
+    margin-right: 50px;
+    padding-left: 20px;
+    border-left: 2px solid darkorange;
+}
+
+.footer {
+    height: 100px;
+    background-color:rgb(22, 89, 90);
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    width: 100%;
+}
+
+@media (min-width:768px) {
+    .main-info-header {
+        font-size: 30px;
+    }
+    .city-img {
+        width: 200px;
+    }
+
+    .city-header {
+        font-size: 16px;
+        margin-left: 12px;
+    }
+    .city-header-c {
+        margin-left: 12px;
+    }
+    .city-info {
+        font-size: 12px;
+    }
+    
+    h5 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width:992px) {
+    .city-img {
+        width: 285px;
+    }
+    h5 {
+        font-size: 52px;
+    }
+}
+
+
+
