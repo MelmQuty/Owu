@@ -1,0 +1,9 @@
+.SectionInfo {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid red;
+    background-color: saddlebrown;
+}

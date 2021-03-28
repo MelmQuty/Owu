@@ -1,0 +1,32 @@
+.Header {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-around;
+    margin:0;
+    padding: 15px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.bac-tomato {
+    background-color: tomato;
+}
+
+.bac-aqua {
+    background-color: aquamarine;
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
