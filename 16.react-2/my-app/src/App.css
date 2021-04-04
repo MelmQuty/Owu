@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  font-weight: bold;
+  color:#000;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+.button:hover {
+  font-size: 20px;
+  color:tomato;
+  transition: .5s linear all;
+  border: 1px solid tomato;
+}
+
+.button:focus {
+  background-color:darkred;
+  outline: none;
+  color: #fff;
+  transition: 1.5s linear background-color;
+  transition: 1.5s linear color;
+}
+
+
+.app_items {
+  text-align: center;
+  font-weight: bold;
+  color:darkorchid;
+  border-radius: 15px;
+  width: 330px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
