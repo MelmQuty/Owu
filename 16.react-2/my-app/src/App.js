@@ -52,6 +52,7 @@ function App() {
   // );
 
   //  2 те саме, тільки з кнопкою реверт (повернутись до стану, де у нас видно 3 елемнети, як на початку)
+  
   // const [itemsToHide, setItemsToHide] = useState([]);
 
   // const filteredArr = arr.filter(el => !itemsToHide.includes(el.id))
