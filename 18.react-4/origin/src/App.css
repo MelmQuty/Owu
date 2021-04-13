@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.single_item {
+  width: 200px;
+  text-align: left;
+}
+
+.error {
+  color: crimson;
+  text-align: center;
+  font-weight: bold;
+}
+
+.input_item {
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
+  outline: none;
+  border: 2px solid green;
+  background-color: inherit;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.input_item:hover {
+  transition: 1s linear all;
+  background-color: darkgreen;
+  color: #fff;
+}
+
+.input_item:focus {
+  transition: 1s linear all;
+  background-color: darkgreen;
+  color: #fff;
+}
+
+.button_item {
+  outline: none;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color:#fff;
+  border: 2px solid rebeccapurple;
+
+}
+
+.button_item:hover {
+  transition: 1s linear all;
+  background-color:slateblue;
+  color: #fff;
+  font-size: 18px;
+}
+
+.button_item:focus {
+  transition: 1s linear all;
+  background-color:slateblue;
+  color: #fff;
+  font-size: 18px;
+}
+/* 
+.checkbox_form {
+  display: flex;
+  text-align: center;
+  align-items: center;
+} */
+
+form {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+}
