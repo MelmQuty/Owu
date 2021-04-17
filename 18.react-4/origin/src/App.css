@@ -61,12 +61,6 @@ input::placeholder {
   color: #fff;
   font-size: 18px;
 }
-/* 
-.checkbox_form {
-  display: flex;
-  text-align: center;
-  align-items: center;
-} */
 
 form {
   display: flex;
