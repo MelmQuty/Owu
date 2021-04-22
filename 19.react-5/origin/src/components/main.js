@@ -9,6 +9,7 @@ import {
   useHistory,
   useParams,
 } from "react-router-dom";
+import Posts from "./Posts";
 
 export function Main() {
   return (
@@ -17,43 +18,25 @@ export function Main() {
         <nav>
           <ul class="main_ul">
             <li>
-              <Link to="/" className="main_url">
-                Home
-              </Link>
+              <Link to="/" className="main_url">Home</Link>
             </li>
             <li>
-              <Link to="/posts" className="main_url">
-                Posts
-              </Link>
+              <Link to="/posts" className="main_url">Posts</Link>
             </li>
             <li>
-              <Link to="/albums" className="main_url">
-                Albums
-              </Link>
+              <Link to="/albums" className="main_url">Albums</Link>
             </li>
-
             <li>
-              <Link to="/comments" className="main_url">
-              Comments
-              </Link>
+              <Link to="/comments" className="main_url">Comments</Link>
             </li>
-
             <li>
-              <Link to="/photos" className="main_url">
-              Photos
-              </Link>
+              <Link to="/photos" className="main_url">Photos</Link>
             </li>
-
             <li>
-              <Link to="/todos" className="main_url" >
-              Todos
-              </Link>
+              <Link to="/todos" className="main_url" >Todos</Link>
             </li>
-
             <li>
-              <Link to="/users" className="main_url">
-              Users
-              </Link>
+              <Link to="/users" className="main_url">Users</Link>
             </li>
           </ul>
         </nav>
@@ -62,7 +45,7 @@ export function Main() {
           <Route path="/" component={Home} exact />
 
           <Route path="/posts">
-            <Posts />
+            <Posts/>
           </Route>
 
           <Route path="/albums">
@@ -91,81 +74,7 @@ export function Main() {
 }
 
 
-//  POSTST 
-
-function Posts() {
-  const [posts, setPosts] = useState([]);
-  const url = "https://jsonplaceholder.typicode.com/posts";
-  const fetchData = async () => {
-    const response = await fetch(url);
-    const json = await response.json();
-
-    setPosts(json);
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-  return (
-    <div>
-      <Switch>
-        <Route path="/posts/:id" exact>
-          <PostDetails />
-        </Route>
-
-        <Route>
-          <Redirect to="/posts" />
-        </Route>
-      </Switch>
-      <ul>
-        {posts.map((el) => (
-          <Link to={`/posts/${el.id}`}>
-            <li className="padding">
-              {el.id} - {el.title}
-            </li>
-          </Link>
-        ))}
-      </ul>
-    </div>
-  );
-}
-
-function PostDetails() {
-  const [post, setPost] = useState();
-
-  const { id } = useParams();
-  const history = useHistory();
-  const url = `https://jsonplaceholder.typicode.com/posts/${id}`;
-  const fetchData = async () => {
-    const response = await fetch(url);
-    const json = await response.json();
-
-    setPost(json);
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, [id]);
-  return (
-    <>
-      <div className="padding">
-        {post && (
-          <>
-            <h3>
-              {post.id} - {post.title}
-            </h3>
-            <p>{post.body}</p>
-          </>
-        )}
-      </div>
-      <button onClick={() => history.push(`/posts/${+id + 1}`)}>
-        Next one
-      </button>
-    </>
-  );
-}
-
-//  ALBUMS 
+//  ALBUMS
 
 function Albums() {
   const [albums, setAlbums] = useState([]);
