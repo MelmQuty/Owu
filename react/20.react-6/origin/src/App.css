@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.main-header {
+  height: 50px;
+  background-color:brown;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.main-header a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  border: 1px solid black;
+  margin: 10px 10px;
+}
+
+.div-input {
+  padding: 10px;
+}
